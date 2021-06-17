@@ -10,6 +10,7 @@ a {
 }
 body {
     padding-left: 20px;
+    background-image: linear-gradient(150deg,rgb(117, 179, 230),white)
 }
 
 .fotoelegenda {
