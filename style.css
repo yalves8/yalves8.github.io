@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+body {
+    padding-left: 20px;
+}
+
+.fotoelegenda {
+    padding-left: 60px;
+}
+
+ul {
+    line-height: 20px;
+}
