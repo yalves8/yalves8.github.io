@@ -1,3 +1,8 @@
+body{
+    padding: 3px;
+}
+
+
 h1 {
     text-align: center;
 }
@@ -22,19 +27,40 @@ ul {
     
 }
 
-img {
-    border-radius: 50%;
-    margin: 5px;
-}
+
 
 #descricao{
-    background-color: rgb(148, 206, 174);
+    
     width:fit-content;
     border-radius: 60%;
+    position: absolute;
+    top: 1px;
+    right: 42%;
 }
 
 #nac {
     background-image: linear-gradient(to left,rgb(135, 140, 207), rgb(207, 207, 127));
     width:fit-content;
     border-radius: 60%;
+}
+
+#foto {
+    float: left;
+    height: 230px;
+    width: 250px;
+    padding: 10px;
+    background-color: rgb(141, 219, 154);
+}
+
+.imagecontainer {
+    height: 250px;
+    position: relative;
+}
+
+#nome{
+    text-align: center;
+}
+
+ul li:nth-child(odd){
+    background-color: cadetblue;
 }
